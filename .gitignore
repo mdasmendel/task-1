@@ -1,0 +1,62 @@
+# Ignore folder
+ignore/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (large)
+*.csv
+*.xlsx
+*.h5
+*.hdf5
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Experiments
+experiments/*/
+
+# Figures (generated)
+figures/*.png
+figures/*.jpg
+figures/*.pdf
