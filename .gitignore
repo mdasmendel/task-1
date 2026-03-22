@@ -43,9 +43,9 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Data files (large)
-*.csv
-*.xlsx
+# Data files (large, exceed GitHub 100MB limit)
+data/NSPT_proteomics.csv
+data/Summary_statistics_NSPT_EWAS.xlsx
 *.h5
 *.hdf5
 
