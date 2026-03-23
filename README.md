@@ -75,7 +75,15 @@ Generates three figures saved to `figures/`:
 | `dichotomous_variables_distribution.png` | Pie charts showing distribution of T2DM Status, High CV Risk, Severe Dyslipidemia |
 | `correlation_matrix.png` | Heatmap of Pearson correlations between clinically relevant variables |
 
-##  Dependencies
+## ⚠️ Large Files
+
+The following files exceed GitHub's 100 MB limit and are excluded from the repository:
+- `data/NSPT_proteomics.csv` (172 MB)
+- `data/Summary_statistics_NSPT_EWAS.xlsx` (50 MB)
+
+If needed, these files can be provided via Google Drive upon request.
+
+## 📦 Dependencies
 
 `numpy`, `pandas`, `matplotlib`, `seaborn`, `scipy`, `scikit-learn`, `statsmodels`, `openpyxl`, `plotly`, `jupyterlab`
 
